@@ -1,0 +1,82 @@
+
+
+
+html {
+    background: linear-gradient(to bottom, #45484D 0%, #000 100%);
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+}
+
+.calculator {
+    width: 300px;
+    height: 475px;
+    background-color: #282927;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* para que todo lo que salga fuera de la caja no se vea */
+    overflow: hidden;
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.calculator__screen {
+    width: 90%;
+    height: 100px;
+    font-size: 50px;
+    padding: 0;
+    border: 0;
+    border-radius: 6px;
+    color: #fff;
+    text-align: right;
+    background: transparent;
+}
+
+.calculator__keypad {
+    border-top: 1px solid #000;
+}
+
+.btn {
+    background-color: #5d5d5c;
+    width: 75px;
+    height: 75px;
+    float: left;
+    font-size: 30px;
+    color: #fff;
+    border: 0;
+    font-weight: 300;
+    border: 1px solid #000;
+}
+
+
+/* para cuando se le haga foco a los botones */
+.btn:focus {
+   outline: none;
+}
+
+/* efecto para cuando el boton se pulso */
+.btn:active {
+    background-color: #999995;
+}
+
+.btn-double {
+    width: 150px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.btn-dark {
+    background-color: #3c3d3c;
+}
+
+.btn-orange {
+    background-color: #ff940e;
+}
+
+.btn-orange:active {
+    background-color: #884b00;
+}
